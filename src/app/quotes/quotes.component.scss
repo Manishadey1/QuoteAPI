@@ -1,0 +1,54 @@
+.gif{
+    width: 50%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+img {
+    height: 60vh;
+    width: 100%;
+}
+
+.Heading{
+    // background-color: brown;
+    height: 15vh;
+
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: blue;
+    text-align: center;
+}
+
+button{
+    margin-left:40%;
+    width: 25%;
+    height: 7vh;
+    background-color:rgb(15, 170, 231);
+    font-size: larger;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: darkslateblue;
+    
+}
+
+.footer{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.main-body{
+    width: 100%;
+}

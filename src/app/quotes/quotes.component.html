@@ -1,0 +1,19 @@
+<div class="main-body" [ngStyle]="{'background-color': color.hex_value}">
+<div class="Heading">
+    <h1 *ngIf="display" >{{quote.content}} </h1>
+    <h3 *ngIf="display" >-- {{quote.author}}</h3>
+</div>
+
+    <div class="gif">
+        <img src="https://cdn.dribbble.com/users/634508/screenshots/3522861/media/537ac48d5ce46a8ff33f6d1f89bb9470.gif" alt="gif-image" />
+            <br>
+            <br>
+        <button  (click)="refresh()" (keypress)="onKeypress($event)">Tell Me a Quote</button>
+        <!-- <button (keypress)="onKeypress($event)" >Press J</button> -->
+    </div>
+
+<div class="footer">
+<p>Note:: After clicking the button then Press 'j' to see more quotes</p>
+</div>
+
+</div>
